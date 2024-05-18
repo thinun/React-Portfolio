@@ -13,7 +13,6 @@
     height: 300px;
     margin: 20px;
     border-radius: 50%;
-
     transition: 0.3s ease-in-out;
 }
 
@@ -60,6 +59,32 @@
 
 }
 
+.animation{
+    position: absolute;
+    background: linear-gradient( to right , #4ba81d, #1e1f21);
+    width: 500px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    animation: blob 10s infinite;
+    z-index: -10;
+    filter: blur(300px);
+
+
+}
+
+
+@keyframes blob {
+    from{ rotate: 0deg;
+    }
+    50%{
+        scale: 1 1.8;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
+
+
 @media (max-width: 768px) {
     .hero img {
 
@@ -69,7 +94,8 @@
         text-align: center;
         font-size: 28px;
     }
-    .hero h1 span{
+
+    .hero h1 span {
         font-size: 30px;
     }
 

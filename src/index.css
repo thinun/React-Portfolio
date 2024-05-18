@@ -14,8 +14,9 @@
 
 
 body {
-    height: 100vh;
     background: var(--background-color);
     color: var(--text-color);
     font-family: Bahnschrift, serif;
+
 }
+

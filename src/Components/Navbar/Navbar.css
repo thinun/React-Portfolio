@@ -6,8 +6,9 @@
     right: 0;
     align-items: center;
     justify-content: space-between;
-    z-index: 2;
+    z-index: 1;
     background: #161513;
+    backdrop-filter: blur(200px);
 
 }
 
@@ -54,9 +55,10 @@
     width: 30px;
     height: 30px;
 }
- .hamburger img {
-        display: none;
-    }
+
+.hamburger img {
+    display: none;
+}
 
 @media (max-width: 767px) {
     .navbar img {
@@ -74,7 +76,7 @@
         height: 30px;
     }
 
-    .nav-menu img{
+    .nav-menu img {
         display: block;
         position: relative;
         top: 10px;
@@ -83,7 +85,7 @@
 
 
     .nav-menu {
-       position: fixed;
+        position: fixed;
         flex-direction: column;
         align-items: center;
         top: 0;
@@ -97,7 +99,6 @@
 
 
     }
-
 
 
 }

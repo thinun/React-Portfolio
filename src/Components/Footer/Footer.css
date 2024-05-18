@@ -1,5 +1,6 @@
 .footer{
     margin-top: 30px;
+     backdrop-filter: blur(200px);
 }
 
 .footer p{
