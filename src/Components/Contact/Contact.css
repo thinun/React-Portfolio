@@ -1,0 +1,134 @@
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px 0;
+    height: 100vh;
+
+}
+
+.contact-title {
+    position: relative;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+
+.contact-left-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.contact-right input, .contact-right textarea {
+    width: 100%;
+    height: 35px;
+    padding: 5px 5px 5px 15px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    background-color: #7BB152;
+}
+
+.contact-right input::placeholder,
+.contact-right textarea::placeholder {
+    color: white;
+}
+
+.contact-right textarea {
+    height: 150px;
+    padding-top: 20px;
+}
+
+.contact-right button {
+    height: 40px;
+    width: 100px;
+    background: linear-gradient(267deg, #7BB152 0.36%, #4E722A 100%);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+
+.contact-right button:hover {
+    box-shadow: 0 0 10px #7BB152;
+
+}
+
+.contact-right input:focus,
+.contact-right textarea:focus {
+    box-shadow: 0 0 10px #7BB152;
+    outline: none;
+}
+
+@media (max-width: 767px) {
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+        margin: 80px 170px 0;
+        height: 110vh;
+
+    }
+
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-left {
+        width: 100%;
+    }
+
+    .contact-right {
+        width: 100%;
+    }
+
+    .contact-section h1 {
+        width: 200px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-right {
+        width: 100%;
+    }
+
+    .contact-left {
+        width: 100%;
+    }
+
+    .contact-section {
+
+        height: 100vh;
+
+    }
+}
