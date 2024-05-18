@@ -17,7 +17,7 @@ const Hero = () => {
             <div className={"hero-buttons"}>
                 <a className={"hero-btn-links"} href={"https://github.com/thinun"}><i><FontAwesomeIcon icon={faGithub}
                                                                                                        className="icon"/></i></a>
-                <a className={"hero-btn-links"} href={""}><i><FontAwesomeIcon icon={faFile} className="icon"/></i></a>
+                <a className={"hero-btn-links"} href={"Thinun-CV.pdf"}><i><FontAwesomeIcon icon={faFile} className="icon"/></i></a>
                 <a className={"hero-btn-links"} href={"https://www.linkedin.com/in/thinun-tharushika/"}> <i><FontAwesomeIcon icon={faLinkedin} className="icon"/></i></a>
             </div>
         </div>
