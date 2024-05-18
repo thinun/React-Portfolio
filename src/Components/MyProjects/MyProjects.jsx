@@ -16,7 +16,7 @@ const MyProjects = () => {
                 {myProjects.map((item, index) => (
                     <div key={index} className="project-item" onMouseEnter={() => setHoveredProject(index)}
                          onMouseLeave={() => setHoveredProject(null)}>
-                        <a href={""}><img src={item.w_img} alt={`Project ${index + 1}`}/></a>
+                        <a href={item.w_url}><img src={item.w_img} alt={`Project ${index + 1}`}/></a>
                         {hoverdProject === index && (
                             <div className={"button-container"}>
                                 <button className={"project-button"}><a href={""}>GIT HUB</a></button>
