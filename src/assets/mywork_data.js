@@ -8,7 +8,7 @@ import project6_img from '../assets/Tp number validater.png'
 const mywork_data = [
     {
         w_no:1,
-        w_name:"Web design",
+        w_name:"E-Commerce Website",
         w_img:project1_img,
         w_url:"https://thinun.github.io/Ecommercec-website/",
         g_hub:"https://github.com/thinun/Ecommercec-website"
@@ -16,34 +16,34 @@ const mywork_data = [
     },
     {
         w_no:2,
-        w_name:"Web design",
+        w_name:"Todo List",
         w_img:project2_img,
         w_url:"https://thinun.github.io/ToDo-List/",
         g_hub:"https://github.com/thinun/ToDo-List"
     },
     {
         w_no:3,
-        w_name:"Web design",
+        w_name:"Pokemon Search app",
         w_img:project3_img,
         w_url:"https://thinun.github.io/Pokemon-Search-App/",
         g_hub: "https://github.com/thinun/Pokemon-Search-App"
     },
     {
         w_no:4,
-        w_name:"Web design",
+        w_name:"Rock Paper Scissors",
         w_img:project4_img,
         w_url:"https://thinun.github.io/Rock-Paper-Scissors/"
     },
     {
         w_no:5,
-        w_name:"Web design",
+        w_name:"Roman Numerical Converter",
         w_img:project5_img,
         w_url:"https://thinun.github.io/Roman-Numeral-Converter/",
         g_hub:"https://github.com/thinun/Rock-Paper-Scissors"
     },
     {
         w_no:6,
-        w_name:"Web design",
+        w_name:"Telephone Number Validator",
         w_img:project6_img,
         w_url:"https://thinun.github.io/Telephone-Number-Validator/",
         g_hub:"https://github.com/thinun/Telephone-Number-Validator"
