@@ -112,8 +112,13 @@
     }
 
     .animation {
-        width: 300px;
+        width: 280px;
     }
 }
 
-
+@media (max-width: 420px)
+{
+    .animation {
+        width: 220px;
+    }
+}
