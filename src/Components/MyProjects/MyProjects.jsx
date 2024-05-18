@@ -19,7 +19,7 @@ const MyProjects = () => {
                         <a href={item.w_url}><img src={item.w_img} alt={`Project ${index + 1}`}/></a>
                         {hoverdProject === index && (
                             <div className={"button-container"}>
-                                <button className={"project-button"}><a href={""}>GIT HUB</a></button>
+                                <button className={"project-button"}><a href={item.g_hub}>GIT HUB</a></button>
                             </div>
                         )}
 

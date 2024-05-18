@@ -10,20 +10,23 @@ const mywork_data = [
         w_no:1,
         w_name:"Web design",
         w_img:project1_img,
-        w_url:"https://thinun.github.io/Ecommercec-website/"
+        w_url:"https://thinun.github.io/Ecommercec-website/",
+        g_hub:"https://github.com/thinun/Ecommercec-website"
 
     },
     {
         w_no:2,
         w_name:"Web design",
         w_img:project2_img,
-        w_url:"https://thinun.github.io/ToDo-List/"
+        w_url:"https://thinun.github.io/ToDo-List/",
+        g_hub:"https://github.com/thinun/ToDo-List"
     },
     {
         w_no:3,
         w_name:"Web design",
         w_img:project3_img,
-        w_url:"https://thinun.github.io/Pokemon-Search-App/"
+        w_url:"https://thinun.github.io/Pokemon-Search-App/",
+        g_hub: "https://github.com/thinun/Pokemon-Search-App"
     },
     {
         w_no:4,
@@ -35,13 +38,15 @@ const mywork_data = [
         w_no:5,
         w_name:"Web design",
         w_img:project5_img,
-        w_url:"https://thinun.github.io/Roman-Numeral-Converter/"
+        w_url:"https://thinun.github.io/Roman-Numeral-Converter/",
+        g_hub:"https://github.com/thinun/Rock-Paper-Scissors"
     },
     {
         w_no:6,
         w_name:"Web design",
         w_img:project6_img,
-        w_url:"https://thinun.github.io/Telephone-Number-Validator/"
+        w_url:"https://thinun.github.io/Telephone-Number-Validator/",
+        g_hub:"https://github.com/thinun/Telephone-Number-Validator"
     },
 ]
  
