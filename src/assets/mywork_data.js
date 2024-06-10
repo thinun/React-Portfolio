@@ -50,7 +50,7 @@ const mywork_data = [
         g_hub: "https://github.com/thinun/Telephone-Number-Validator"
     },
     {
-        w_no: 6,
+        w_no: 7,
         w_name: "Recipe Finder",
         w_img: project7_img,
         w_url: "https://github.com/thinun/Recipe-Finder",
