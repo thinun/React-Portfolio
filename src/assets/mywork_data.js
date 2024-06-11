@@ -5,6 +5,7 @@ import project4_img from '../assets/rockpaperS.png'
 import project5_img from '../assets/roman number converter.png'
 import project6_img from '../assets/Tp number validater.png'
 import project7_img from '../assets/recipe_finder.png'
+import project8_img from '../assets/Random-quote.png'
 
 const mywork_data = [
     {
@@ -55,6 +56,13 @@ const mywork_data = [
         w_img: project7_img,
         w_url: "https://github.com/thinun/Recipe-Finder",
         g_hub: "https://github.com/thinun/Recipe-Finder"
+    },
+     {
+        w_no: 8,
+        w_name: "Random Quote Generate",
+        w_img: project8_img,
+        w_url: "https://github.com/thinun/Random-Quote",
+        g_hub: "https://github.com/thinun/Random-Quote"
     },
 ]
 
