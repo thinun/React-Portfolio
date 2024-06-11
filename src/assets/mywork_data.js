@@ -63,7 +63,7 @@ const mywork_data = [
         w_img: project8_img,
         w_url: "https://github.com/thinun/Random-Quote",
         g_hub: "https://github.com/thinun/Random-Quote"
-    },
+    }
 ]
 
 export default mywork_data;
